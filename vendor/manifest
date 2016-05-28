@@ -1,0 +1,41 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/Syfaro/finch",
+			"repository": "https://github.com/Syfaro/finch",
+			"revision": "74844e8b0724c05dd0ffeba202cf767a3bda646d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/getsentry/raven-go",
+			"repository": "https://github.com/getsentry/raven-go",
+			"revision": "dffeb57df75d6a911f00232155194e43d79d38d7",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/namsral/flag",
+			"repository": "https://github.com/namsral/flag",
+			"revision": "417f4c49833ffa4f4b59bc2d9ef77afa15d4f6e3",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/syfaro/finch",
+			"repository": "https://github.com/syfaro/finch",
+			"revision": "74844e8b0724c05dd0ffeba202cf767a3bda646d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/technoweenie/multipartstreamer",
+			"repository": "https://github.com/technoweenie/multipartstreamer",
+			"revision": "a90a01d73ae432e2611d178c18367fbaa13e0154",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/telegram-bot-api.v4",
+			"repository": "https://gopkg.in/telegram-bot-api.v4",
+			"revision": "217764ba453f319b00d05506e56d26ef0a9fc231",
+			"branch": "master"
+		}
+	]
+}
