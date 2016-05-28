@@ -48,7 +48,7 @@ func (cmd *countdownCommand) Execute(message tgbotapi.Message) error {
 	minutes := int64(diff.Minutes())
 
 	text := fmt.Sprintf(
-		"\"%s\" (S%dE%d) will air in %dd days, %d hours and %d minutes!",
+		"\"%s\" (S%dE%d) will air in %d days, %d hours and %d minutes!",
 		episode.Name, episode.Season, episode.Episode,
 		days, hours, minutes,
 	)
