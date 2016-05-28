@@ -5,6 +5,7 @@ import (
 	"github.com/syfaro/finch"
 	_ "github.com/syfaro/finch/commands/help"
 	_ "github.com/syfaro/finch/commands/info"
+	_ "xeserv.us/commands/countdown"
 	_ "xeserv.us/commands/printerfacts"
 )
 
