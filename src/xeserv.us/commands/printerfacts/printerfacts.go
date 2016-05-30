@@ -7,7 +7,6 @@ import (
 	"net/http"
 
 	"github.com/syfaro/finch"
-	"gopkg.in/telegram-bot-api.v4"
 )
 
 func init() {
@@ -53,7 +52,6 @@ func (cmd *printerfactCommand) Execute(message tgbotapi.Message) error {
 	text := fmt.Sprintf("%s", factStruct.Facts[0])
 
 	msg := tgbotapi.NewMessage(message.Chat.ID, text)
-	msg.ReplyToMessageID = message.MessageID
 
 	return cmd.Finch.SendMessage(msg)
 }

@@ -54,7 +54,6 @@ func (cmd *countdownCommand) Execute(message tgbotapi.Message) error {
 	)
 
 	msg := tgbotapi.NewMessage(message.Chat.ID, text)
-	msg.ReplyToMessageID = message.MessageID
 
 	return cmd.Finch.SendMessage(msg)
 }
