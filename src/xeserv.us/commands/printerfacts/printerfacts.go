@@ -7,6 +7,7 @@ import (
 	"net/http"
 
 	"github.com/syfaro/finch"
+	"gopkg.in/telegram-bot-api.v4"
 )
 
 func init() {
